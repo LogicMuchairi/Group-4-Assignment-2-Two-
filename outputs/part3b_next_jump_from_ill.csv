@@ -1,0 +1,3 @@
+origin,next_destination,intensity,next_jump_prob
+I,H (recovery),0.2450579177360061,0.7845880524095048
+I,D (death),0.06728168134840813,0.21541194759049523
