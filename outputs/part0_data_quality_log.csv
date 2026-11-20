@@ -1,0 +1,9 @@
+check,status,details
+row_counts,PASS,"districts=24, age_sex=864, life_table=18, scenarios=3, insured=96"
+unique_keys,PASS,Primary/composite keys verified across tables
+age_sex_coverage_and_join,PASS,All 24 districts have 18 age bands x 2 sexes; many-to-one join clean
+male_births_structural_zero,PASS,Non-zero male births rows = 0
+missing_indicators,INFO,"districts.piped_water_pct missing for ['D04', 'D17'] (2 rows); life_table_inputs interval_years/ax blank only at age_start=85 (open interval)"
+valid_ranges,PASS,"All populations, flows, exposures, and survival probabilities within valid bounds"
+balance_reconciliation_2026,PASS,"Total pop_2020=2,402,605, pop_2025=2,636,363, pop_2026_reported=2,658,389, pop_2026_reconstructed=2,658,389, max_abs_diff=0"
+death_scope_difference,INFO,"District deaths_2025 total=37,507 vs age_sex baseline_deaths_2025 sum=36,886 (diff=621; district deaths include deaths among 2025 births)"
