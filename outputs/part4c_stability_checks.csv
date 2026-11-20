@@ -1,0 +1,4 @@
+check,n_districts,ari
+Different random seed (2026 vs 42),24,1.0
+Region-median vs overall-median imputation,24,1.0
+Complete-case (drop 2 missing water districts),22,1.0
