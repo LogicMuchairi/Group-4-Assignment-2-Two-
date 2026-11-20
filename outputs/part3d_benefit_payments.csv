@@ -1,0 +1,3 @@
+period,incremental_deaths,cumulative_deaths_end,benefit_per_death_usd,undiscounted_benefit_usd
+Year 1 (t=0 to t=1),616.5006313247677,616.5006313247677,1000.0,616500.6313247677
+Year 2 (t=1 to t=2),634.456539101925,1250.9571704266928,1000.0,634456.5391019251
